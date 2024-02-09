@@ -752,23 +752,11 @@ ul {
     z-index: -1;
 }
 
-@media(max-width:991px) {
-    .discount .image {
-        flex-basis: 100%;
-    }
-}
-
 .discount .form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-basis: 50%;
-}
-
-@media(max-width:991px) {
-    .discount .form {
-        flex-basis: 100%;
-    }
 }
 
 .discount .form .input {
