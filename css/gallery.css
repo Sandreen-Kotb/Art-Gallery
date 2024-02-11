@@ -763,7 +763,6 @@ ul {
 @media(max-width : 434px) {
     .discount .image {
         flex-basis: 100%;
-        flex-wrap: wrap;
     }
 }
 .discount .form {
@@ -775,7 +774,6 @@ ul {
 @media(max-width : 434px) {
     .discount .form {
         flex-basis: 100%;
-        flex-wrap: wrap;
     }
 }
 .discount .form .input {
