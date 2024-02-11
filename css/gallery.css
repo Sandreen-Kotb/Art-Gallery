@@ -751,14 +751,24 @@ ul {
     background-color: #f6e7ca;
     z-index: -1;
 }
-
+@media(max-width : 434px) {
+    .discount .image {
+        flex-basis: 100%;
+        flex-wrap: wrap;
+    }
+}
 .discount .form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-basis: 50%;
 }
-
+@media(max-width : 434px) {
+    .discount .form {
+        flex-basis: 100%;
+        flex-wrap: wrap;
+    }
+}
 .discount .form .input {
     display: block;
     width: 100%;
