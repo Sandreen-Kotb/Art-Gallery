@@ -733,7 +733,7 @@ ul {
 /*End Drawings*/
 /*Start Discount */
 .discount {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     background-color: #fefefe;
