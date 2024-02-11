@@ -774,6 +774,10 @@ ul {
 @media(max-width : 434px) {
     .discount .form {
         flex-basis: 100%;
+    }
+}
+@media(max-width : 735px) {
+    .discount .form {
         padding-bottom: 10px;
     }
 }
